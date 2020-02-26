@@ -16,7 +16,7 @@ const Post = {
 const routes = [
 
   { path: '/', component: Home },
-  { path: '/Mag', component: LiamMag }
+  { path: '/Maggot', component: LiamMag }
   ,
   {
     path: '*',
