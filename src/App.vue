@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MainText/>
+    <technical-prof/>
+    <p>{{name}}</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainText from './components/MainText.vue'
+import TechnicalProf from './components/TechnicalProf.vue'
 
 export default {
   name: 'app',
+  data(){
+    return{
+      name: 'trento'
+    }
+  },
   components: {
-    HelloWorld
+    MainText,
+    TechnicalProf
   }
 }
 </script>
