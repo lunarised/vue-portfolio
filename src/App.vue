@@ -1,28 +1,12 @@
 <template>
   <div id="app">
-    <MainText/>
-    <technical-prof/>
-    <p>{{name}}</p>
+    
+     <router-view></router-view>
   </div>
+  
 </template>
 
-<script>
-import MainText from './components/MainText.vue'
-import TechnicalProf from './components/TechnicalProf.vue'
 
-export default {
-  name: 'app',
-  data(){
-    return{
-      name: 'trento'
-    }
-  },
-  components: {
-    MainText,
-    TechnicalProf
-  }
-}
-</script>
 
 <style>
 #app {
