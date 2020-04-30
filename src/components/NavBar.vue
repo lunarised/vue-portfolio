@@ -13,7 +13,7 @@
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="https://graph.facebook.com/100000693201824/picture?type=large&width=720&height=720"
             alt
-          /> !>
+          />
         </span>
       </a>
       <button
