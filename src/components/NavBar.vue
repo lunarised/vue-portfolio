@@ -47,6 +47,10 @@ export default {
         {
           displayName: "About Me",
           href: "#about-me"
+        },
+        {
+          displayName: "Projects",
+          href: "#projects"
         }
       ],
       name: "James McKenzie"

@@ -4,6 +4,7 @@
     <Home/>
     <technical-proficiencies/>
     <AboutMe/>
+    <Projects/>
   </div>
   
 </template>
@@ -13,13 +14,15 @@ import Home from './pages/Home.vue'
 import TechnicalProficiencies from './pages/TechnicalProficiencies.vue'
 import NavBar from './components/NavBar.vue'
 import AboutMe from './pages/AboutMe'
+import Projects from './pages/Projects'
 export default{
   name: 'App',
   components: {
     NavBar,
     Home,
     TechnicalProficiencies,
-    AboutMe
+    AboutMe,
+    Projects
   }
 }
 
