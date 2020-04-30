@@ -3,7 +3,7 @@
     <NavBar/>
     <Home/>
     <technical-proficiencies/>
-
+    <AboutMe/>
   </div>
   
 </template>
@@ -12,12 +12,14 @@
 import Home from './pages/Home.vue'
 import TechnicalProficiencies from './pages/TechnicalProficiencies.vue'
 import NavBar from './components/NavBar.vue'
+import AboutMe from './pages/AboutMe'
 export default{
   name: 'App',
   components: {
     NavBar,
     Home,
-    TechnicalProficiencies
+    TechnicalProficiencies,
+    AboutMe
   }
 }
 

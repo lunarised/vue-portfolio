@@ -43,6 +43,10 @@ export default {
         {
           displayName: "Technical Proficiencies",
           href: "#technical-proficiencies"
+        },
+        {
+          displayName: "About Me",
+          href: "#about-me"
         }
       ],
       name: "James McKenzie"

@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "LiamMag",
+  name: "technical-proficiencies",
   data: () => ({
     languages: ["Java", "Python", "C++", "C", "C#", "Ruby", "Rust", "Bash"]
   })
