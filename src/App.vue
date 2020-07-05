@@ -59,7 +59,7 @@ h6 {
 
 h1 {
   font-size: 3rem;
-  line-height: 5.5rem;
+  line-height: 3.5rem;
 }
 
 h2 {
