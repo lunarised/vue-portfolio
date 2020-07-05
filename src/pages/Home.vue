@@ -1,7 +1,7 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="home">
     <div class="w-100">
-      <h1 id="halla">James McKenzie's Portfolio of Work</h1>
+      <h1 id="halla">James McKenzie's <br> Portfolio of Work</h1>
       <p>
         I am a BIT graduate from Otago Polytechnic with experience in operations,
         systems programming and infrastructure management.
