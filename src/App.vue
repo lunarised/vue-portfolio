@@ -58,7 +58,7 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 3rem;
   line-height: 5.5rem;
 }
 

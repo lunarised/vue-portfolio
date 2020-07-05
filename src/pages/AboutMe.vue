@@ -19,7 +19,7 @@
           Currently my best Programming languages are Python and Java, although, the ones that 
           I enjoy programming in the most are Rust, C89 and OCaml. I am very interested in 
           different programming paradigms, specifically in functional programming, and I follow
-          the Haskell and Idris scenes, although I am a little too scares to get my feet wet... 
+          the Haskell and Idris scenes, although I am a little too scared to get my feet wet... 
           at the moment anyways
         </p>
         <p> Outside of Programming, I really do enjoy writing and performing Music, which is mostly
