@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 h3 {
