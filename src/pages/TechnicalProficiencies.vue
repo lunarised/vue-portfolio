@@ -1,12 +1,17 @@
 <template>
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="technical-proficiencies">
     <div class="w-100">
-    <h2>Technical Proficiencies</h2>
-    <p>I am primarily a Java programmer; having completed most of my personal projects in it, however, I am somewhat flexible in my language capabilities, having a varying range of experience in other languages, including but not limited to</p>
-    <ul>
-      <li v-for="lang in languages" :key="{lang}">{{lang}}</li>
-    </ul>
+      <h2>Technical Proficiencies</h2>
+      <p>I am primarily a Java programmer; having completed most of my personal projects in it, however, I am somewhat flexible in my language capabilities, having a varying range of experience in other languages, including but not limited to</p>
+      <ul>
+        <li
+          @click="showModal(lang.name, lang.text)"
+          v-for="lang in languages"
+          :key="{lang}"
+        >{{lang.name}}</li>
+      </ul>
     </div>
+    <v-dialog />
   </section>
 </template>
 
@@ -14,13 +19,84 @@
 export default {
   name: "technical-proficiencies",
   data: () => ({
-    languages: ["Java", "Python", "C++", "C", "C#", "Ruby", "Rust", "Bash"]
-  })
+    languages: [
+      {
+        name: "Java",
+        text:
+          "<p> Most of my prototype programming is done in Java, as it was\
+      the first language which I learnt to a degree of proficiency. The fact that it is\
+      very clean for crossplatform development is ideal for me as a Windows x Linux \
+      Based Programmer. In Java, I have explored many problems, from implementing data\
+      structures and building GUI's to creating more complex applications with data-graphing,\
+      and even doing some (now understandably) silly systems programming. Java is definitely one\
+      of my go-to languages for any sort of software development or mock up</p>"
+      },
+
+      {
+        name: "Python",
+        text:
+          "Python2 was the first programming language I tried that \
+      wasn't connected to some kind of microcontroller. I didn't really enjoy python2 that much \
+      until I tried out python3 and decided that it was the language I like to toy with. I have \
+      experience in many areas of python3 development, such data-science and AI (using tools \
+      such as tensor flow and numpy), designing and testing algoriths, OO Principles, and my \
+      favorite of all, funtional programming. While python is almost never my first choice \
+      as a language for a project, It's a language that I don't get tired of too quickly"
+      },
+
+      { name: "C++", text: "This is C++... For now... " },
+
+      { name: "C", text: "This is C... For now... " },
+
+      { name: "C#", text: "This is C#... For now... " },
+
+      { name: "Ruby", text: "My experience with Ruby has only been for 2 small projects. The \
+      first one was for a programming assignment, where we had to create the famous Mastermind \
+      game in Ruby. It was here where I first discovered how clean this language looks. From the \
+      english like way that it read, to the sample method that retrieved a random element in a \
+      list, this language had everything a beautiful language could have. The other project I \
+      have used ruby to work through, was a bot that connected to a fediverse instance, and \
+      made shitposts from a set of files pertaining to musicians/bands, and sentences. I still \
+      haven't finished this project, but it is one i'm quite fond of" },
+
+      {
+        name: "Rust",
+        text:
+          "Rust is a language that I always strive to get better at. \
+      Currently, it is nowhere near one of my most proficient languages, However, I am always \
+      excited for whenever I get the time to go through and write/learn a little bit of rust. It \
+      really is one of my passions in IT, and I hope to see rust grow into a popular language \
+      in the coming years. The features I enjoy the most about rust are the Data Ownership Model \
+      and the provable thread safety. The cargo dependancy manager is pretty cool too. \
+      While I wouldn't be able to code myself out of a box with rust, I'd certainly have a fun \
+      time while I am in there."
+      },
+
+      { name: "Bash", text: "Bash has always been a funny language for me to program in. On \
+      one hand, doing batch processing in it is very straight forward as you can consider it \
+      a sequence of commands, although, once you add conditionals and loops, bash gets rather \
+      ugly. I ended up writing a tool in bash that helps initialize jekyll pages. I made this \
+      after one of my friends who blogs, asked me why he spent more time writing in metadata for \
+      jekyll to process than he did writing his posts. So i essentially made a barebones bash \
+      script that fills out the metadata for me. I will oneday put it in a build package, but \
+      since it is mainly just being used by some close friends of mine, I will keep it as a \
+      simple bash script for now." }
+    ]
+  }),
+  methods: {
+    showModal(title, text) {
+      this.$modal.show("dialog", { title, text });
+    },
+    hideModal() {
+      this.$modal.hide("dialog");
+    }
+  }
 };
 </script>
 
 <style scoped>
 ul {
+  margin-left: auto;
   list-style-type: none;
   padding: 0;
 }
