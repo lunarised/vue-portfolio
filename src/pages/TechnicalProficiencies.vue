@@ -13,6 +13,16 @@
         >{{lang.name}}</li>
       </ul>
       <h3>Operations</h3>
+      <p>I spent a year in the Otago Polytechnic Student OPs team, and have spent a bit of my
+        own time learning about Systems Administration, and Operations. I understand and have 
+        experience with many technologies and systems used in this area. Such as: </p>
+        <ul>
+        <li
+          @click="showModal(oper.name, oper.text)"
+          v-for="oper in operations"
+          :key="{oper}"
+        >{{oper.name}}</li>
+      </ul>
     </div>
     <v-dialog />
   </section>
@@ -101,6 +111,14 @@ export default {
       script that fills out the metadata for me. I will oneday put it in a build package, but \
       since it is mainly just being used by some close friends of mine, I will keep it as a \
       simple bash script for now." }
+    ],
+    operations: [
+      {name: "Linux", text: "Arch, Ubuntu, Debian, BSD"},
+      {name: "Configuration Management", text: "Puppet, Chef, Nix"},
+      {name: "Monitoring", text: "Nagios"},
+      {name: "Containerisation", text: "Docker"},
+      {name: "Virtualization", text: "VMWare"}
+
     ]
   }),
   methods: {
