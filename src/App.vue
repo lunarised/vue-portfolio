@@ -67,7 +67,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 992px) {

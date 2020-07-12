@@ -2,6 +2,8 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="technical-proficiencies">
     <div class="w-100">
       <h2>Technical Proficiencies</h2>
+      <br>
+      <h3>Programming</h3>
       <p>I am primarily a Java programmer; having completed most of my personal projects in it, however, I am somewhat flexible in my language capabilities, having a varying range of experience in other languages, including but not limited to</p>
       <ul>
         <li
@@ -10,6 +12,7 @@
           :key="{lang}"
         >{{lang.name}}</li>
       </ul>
+      <h3>Operations</h3>
     </div>
     <v-dialog />
   </section>
@@ -44,11 +47,28 @@ export default {
       as a language for a project, It's a language that I don't get tired of too quickly"
       },
 
-      { name: "C++", text: "This is C++... For now... " },
+      { name: "C++", 
+      text: "C++ is the language where I first started building big projects. I build a \
+      roguelike game in C++ for my Programming 4 paper. While most of the project was done \
+      in the .NET framework, with little native C++ being written, I did write some C++ for \
+      the more difficult parts of the project (such as using native vectors for the room \
+      generation algorithm, which was utilizing a poisson distribution). I enjoy writing \
+      C++, and It is probably one of my best languages, beside Java and Python" },
 
-      { name: "C", text: "This is C... For now... " },
+      { name: "C", text: "While Rust is my go to systems programming language, I got my \
+      love of systems programming from using C. I have used C in many projects, from CLI \
+      games of ECard, to several arduino projects (such as a digital theremin, or a \
+      collision avoiding robot). I still get a kick out of firing up my C environment, and \
+      re-figuring out memory management, which is a thrill I dont get in any of my other \
+      programming languages of choice." },
 
-      { name: "C#", text: "This is C#... For now... " },
+      { name: "C#", text: "My experience with C# was originally as a way to manage windows \
+      forms, and was taught as one of the first languages in my Bachelor of IT. While I \
+      enjoyed programming in C# then, It wasn't until I played around with making some\
+       functionally designed components for my software testing before I truly realised that \
+       this language could do so much more than be an OO heavy weight like Java. While C# \
+       is not my best language, Nor a language I will pick over another (Outside of Windows \
+       forms), I feel I can both develop and review functions written in it " },
 
       { name: "Ruby", text: "My experience with Ruby has only been for 2 small projects. The \
       first one was for a programming assignment, where we had to create the famous Mastermind \
