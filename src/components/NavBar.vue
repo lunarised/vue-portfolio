@@ -4,9 +4,14 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">{{name}}</span>
         <span class="d-none d-lg-block">
-          <img
+          <!--<img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="https://avatars1.githubusercontent.com/u/18286813?s=460&v=4"
+            alt
+          /> -->
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="https://graph.facebook.com/100000693201824/picture?type=large&width=720&height=720"
             alt
           />
         </span>
@@ -47,6 +52,10 @@ export default {
         {
           displayName: "About Me",
           href: "#about-me"
+        },
+        {
+          displayName: "Projects",
+          href: "#projects"
         }
       ],
       name: "James McKenzie"

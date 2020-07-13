@@ -4,6 +4,7 @@
     <Home/>
     <technical-proficiencies/>
     <AboutMe/>
+    <Projects/>
   </div>
   
 </template>
@@ -13,13 +14,15 @@ import Home from './pages/Home.vue'
 import TechnicalProficiencies from './pages/TechnicalProficiencies.vue'
 import NavBar from './components/NavBar.vue'
 import AboutMe from './pages/AboutMe'
+import Projects from './pages/Projects'
 export default{
   name: 'App',
   components: {
     NavBar,
     Home,
     TechnicalProficiencies,
-    AboutMe
+    AboutMe,
+    Projects
   }
 }
 
@@ -55,16 +58,16 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 992px) {
