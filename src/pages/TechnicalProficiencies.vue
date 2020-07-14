@@ -22,6 +22,7 @@
           @click="showModal(oper.name, oper.text)"
           v-for="oper in operations"
           :key="{oper}"
+           :style="{color:oper.color, backgroundColor:oper.bg}"
         >{{oper.name}}</button>
         </div>
     </div>
@@ -138,14 +139,20 @@ export default {
       easier than on Windows. I currently use a mix of Arch Linux, and Debian for my projects \
       however, I am comfortable with Ubuntu also as I have spent years adding foreign ppa's \
       for various things. <a href=https://github.com/lunarised/dotfiles target= _blank>You can find many of my dot files and configuration files on my \
-      github. </a>"},
+      github. </a>",
+      color: "#ffffff",
+      bg: "#0088cc"
+      },
       {name: "Configuration Management", text: 
       "I have in the past, used some configuration management tools, and used them to have \
       multiple machines running the same version of specific software. For this task, I used \
       both Chef and Puppet, although I preferred puppet as it made far more sense to me in \
       regards of its grouping scheme. I have also dabbled a little into Nix, which is a \
       functional programming based tool that deals with configuation management, and is the \
-      core technology behind a linux distribution called NixOS"},
+      core technology behind a linux distribution called NixOS",
+      color: "#222222",
+      bg: "#FEFE00",
+      },
       {name: "Monitoring", text: 
       "For server monitoring, I have both used homemade tools, and effective tools. I designed \
       some software that would send diagnostics to a Raspberry Pi, which would then send me a \
@@ -153,20 +160,35 @@ export default {
       this was several years ago, and didn't work when I expected it to, I looked into other \
       monitoring software, At this time, I was introduced to Nagios in my Systems Administration \
       class. I liked the sheer simplicity of Nagios, and have been using it since. I also did \
-      some configuration management as part of my Student Ops role with Nagios."},
-      {name: "Containerisation", text: "Docker"},
+      some configuration management as part of my Student Ops role with Nagios.",
+      bg: "#b30000",
+      color: "#ffffff"},
+      {name: "Containerisation", text: 
+      "While I have dabbled in docker a fair bit in my degree, Maintaining containers, \
+      fixing errors for other people and even creating some containers myself, There is \
+      still much for me to learn in regard to Docker, Such as Docker-Compose, Docker Swarm \
+      and Kubernetes. I intend to improve my skills with Docker over the coming months as \
+      I really enjoy the idea of containerisation",
+      color:"#ffffff",
+      bg: "#00B4AB"
+      },
       {name: "Virtualization", text: 
       "As a member of the Student Ops group, I utilised VMWare to provide virtual machines \
       to the other project groups. I have also used virtualization in my own time, such as \
       using dyanamic malware analysis tools such as Cuckoo, which require a very specific \
-      virtual machine setup."},
+      virtual machine setup.",
+      color: "#ffffff",
+      bg: "#DA5B0B"
+      },
       {name: "Git", text: 
       "I have used a large amount of git, from using it as a developer by utilizing CI/CD and \
       pull requests to make my development more agile, to maintaining it for all IT students at \
       Otago Polytechnic. While the user side of git is mostly the same regardless of what \
       provider you are using, I have worked with the greater git ecosystems in Github, Gitlab, \
       and Gitea. I'm constantly looking for new and interesting ways to utilize git to help me \
-      with my projects."}
+      with my projects.",
+      color: "#ffffff",
+      bg: "#222222"}
 
     ]
   }),
@@ -200,6 +222,36 @@ li {
   margin-left: 0px;
 }
 #langList button{
+  
+  
+  margin-right: auto;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 12px;
+  width: auto;
+  padding-left:20px;
+  padding-right:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#opList{
+  text-align: center;
+  align-content: justify;
+ 
+}
+#opList button:first-child{
+  margin-left: 0px;
+}
+#opList button{
   
   
   margin-right: auto;
