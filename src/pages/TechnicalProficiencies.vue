@@ -163,12 +163,12 @@ export default {
       some configuration management as part of my Student Ops role with Nagios.",
       bg: "#b30000",
       color: "#ffffff"},
-      {name: "Containerisation", text: 
+      {name: "Containerization", text: 
       "While I have dabbled in docker a fair bit in my degree, Maintaining containers, \
       fixing errors for other people and even creating some containers myself, There is \
       still much for me to learn in regard to Docker, Such as Docker-Compose, Docker Swarm \
       and Kubernetes. I intend to improve my skills with Docker over the coming months as \
-      I really enjoy the idea of containerisation",
+      I really enjoy the idea of containerization",
       color:"#ffffff",
       bg: "#00B4AB"
       },
