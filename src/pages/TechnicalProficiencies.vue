@@ -129,7 +129,7 @@ li {
 }
 #langList button{
   
-  
+  margin-top: 20px;
   margin-right: auto;
   margin-left: 10px;
   border: 0;
@@ -159,7 +159,7 @@ li {
 }
 #opList button{
   
-  
+  margin-top: 20px;
   margin-right: auto;
   margin-left: 10px;
   border: 0;

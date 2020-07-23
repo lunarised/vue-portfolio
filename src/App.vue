@@ -60,14 +60,17 @@ h6 {
 h1 {
   font-size: 3rem;
   line-height: 3.5rem;
+  margin-top: 20px;
 }
 
 h2 {
   font-size: 2rem;
+  margin-top: 20px;
 }
 
 h3 {
   font-size: 1.3rem;
+  margin-top: 20px;
 }
 
 @media (min-width: 992px) {
