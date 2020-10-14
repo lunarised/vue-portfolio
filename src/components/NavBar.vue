@@ -54,6 +54,10 @@ export default {
           href: "#about-me"
         },
         {
+          displayName: "Experience",
+          href: "#experience"
+        },
+        {
           displayName: "Projects",
           href: "#projects"
         }
