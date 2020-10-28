@@ -2,7 +2,7 @@
   <div id="app">
     <NavBar/>
     <Home/>
-    <technical-proficiencies/>
+    <TechnicalProficiencies/>
     <AboutMe/>
     <Experience/>
     <Projects/>
