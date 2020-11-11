@@ -14,7 +14,7 @@ Taken from About me
         working from home setups </p>
     <hr>
       <h3> Otago Regional Council </h3>
-      <h4 class="pushLeft"><i> Service Desk Analyst </i> </h4> <h4 class="pushRight">August 2020 - Current</h4>
+      <h4 class="pushLeft"><i> IT Project Assistant </i> </h4> <h4 class="pushRight">August 2020 - Current</h4>
     <div style="clear: both;"></div>
 
       <br>
