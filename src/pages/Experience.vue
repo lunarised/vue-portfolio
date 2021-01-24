@@ -14,15 +14,11 @@ Taken from About me
         working from home setups </p>
     <hr>
       <h3> Otago Regional Council </h3>
-      <h4 class="pushLeft"><i> IT Project Assistant </i> </h4> <h4 class="pushRight">August 2020 - Current</h4>
+      <h4 class="pushLeft"><i> Service Desk Agent </i> </h4> <h4 class="pushRight">August 2020 - Current</h4>
     <div style="clear: both;"></div>
 
       <br>
-      <p> I was employed for this position for a 2 week contract to help distribute laptops to staff,
-          as part of their agile working project. However, due to the laptops taking longer than expected 
-          to arrive, My contract was extended. After helping out with general service desk tasks, My contract was
-          yet again extended, turning a 2 week contract into a 2+ month contract </p>
-
+    
         <p> My core responsibilities as my role as Service Desk Lead, were to provide level 1 support for tickets
             that came through our ticketing system, as well as to document, setup and deploy equiptment across the 
             council. Laptop setups required setting up VPN's, Connecting users to a VOIP system, Imaging the Systems via
