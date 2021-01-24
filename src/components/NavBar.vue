@@ -9,11 +9,7 @@
             src="https://avatars1.githubusercontent.com/u/18286813?s=460&v=4"
             alt
           /> -->
-          <img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="https://graph.facebook.com/100000693201824/picture?type=large&width=720&height=720"
-            alt
-          />
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../../src/assets/dp.jpg" alt="Hey, Its me!">
         </span>
       </a>
       <button
@@ -52,6 +48,10 @@ export default {
         {
           displayName: "About Me",
           href: "#about-me"
+        },
+        {
+          displayName: "Experience",
+          href: "#experience"
         },
         {
           displayName: "Projects",

@@ -2,8 +2,9 @@
   <div id="app">
     <NavBar/>
     <Home/>
-    <technical-proficiencies/>
+    <TechnicalProficiencies/>
     <AboutMe/>
+    <Experience/>
     <Projects/>
   </div>
   
@@ -15,6 +16,7 @@ import TechnicalProficiencies from './pages/TechnicalProficiencies.vue'
 import NavBar from './components/NavBar.vue'
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
+import Experience from './pages/Experience'
 export default{
   name: 'App',
   components: {
@@ -22,6 +24,7 @@ export default{
     Home,
     TechnicalProficiencies,
     AboutMe,
+    Experience,
     Projects
   }
 }
@@ -46,7 +49,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
@@ -73,6 +75,10 @@ h3 {
   margin-top: 20px;
 }
 
+h4{
+  font-size: 1rem;
+  
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
