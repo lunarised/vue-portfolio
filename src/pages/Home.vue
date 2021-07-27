@@ -3,7 +3,7 @@
     <div class="w-100">
       <h1 id="halla">James McKenzie</h1>
       <br>
-      <h2>SysAdmin, Programmer, Dog Person</h2>
+      <h2>SysAdmin, Programmer, Cat Person</h2>
       <p>
         I am a BIT graduate from Otago Polytechnic with experience in operations,
         systems programming, machine learning, and infrastructure management.
