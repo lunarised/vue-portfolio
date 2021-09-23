@@ -45,7 +45,7 @@ Taken from About me
 
       <p>
         At AD Instruments, I work on an Electron App called Labchart Lightning,
-        which gives me experience in React + Typescript with the occasional tidbit of
+        where I use React + Typescript with the occasional tidbit of
         C++. 
       </p>
       <hr />
